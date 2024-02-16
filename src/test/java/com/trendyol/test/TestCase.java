@@ -47,7 +47,7 @@ public class TestCase extends BaseTest{
 
         String sonKontrol = driver.findElement(By.xpath("//div[@class='p-wm-primary-content']")).getText();
         Assertions.assertEquals("Kart numarası geçerli değil.", sonKontrol );
-        System.out.println("Yazı : "+ sonKontrol);
+        System.out.println("Yaziiiii : "+ sonKontrol);
 
 
 
